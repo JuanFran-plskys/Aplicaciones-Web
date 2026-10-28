@@ -80,3 +80,15 @@ footer{
 .ingredientes tbody tr:nth-child(odd){
     background-color: #fafafa;
 }
+
+.elaboración{
+    line-height: 1.6;
+}
+
+.receta h1,h2{
+    color:#F5A623;
+}
+.receta h1{
+    text-align: center;
+}
+
