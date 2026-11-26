@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    padding:0 ,2rem, 2rem, 2rem;
+}
+
+header{
+    background-color: #4caf50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .cabeceraImagen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div{
+        color: white;
+    }
+
+    img{
+        max-width: 100px;
+        max-height: 100px;
+        margin-right: 15px;
+    }
+    nav{
+        list-style-type: none;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        ul{
+            display: flex;
+            flex-direction: row;
+            li{
+                margin-left: 15px;
+                margin-right: 15px;
+                list-style-type: none;
+                a{
+                    color:white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+}
+
+footer{
+    display: flex;
+    background-color: #4caf50;
+    color: white;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+
+main div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .tarjeta{
+        box-shadow: 2px, 2px, 5px, rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border: 2px color solid #ccc;
+        margin: 20px;
+        max-width: 300px;
+        img{
+            max-width: 75%;
+            border-radius: 10px;
+        }
+    h2 {
+        color: #333;
+    }
+    .descripcionProducto {
+        color: #777;
+    }
+    .precio{
+        font-size: 1.25rem;
+        color: #E74C3C;
+    }
+
+    }
+}
